@@ -45,7 +45,7 @@ conversation_history = load_conversation()
 # Create an LLMChain to manage interactions with the prompt and model
 llm_chain = LLMChain(prompt=prompt, llm=llm)
 
-print("Chatbot initialized, ready to chat...")
+print("Joi ready, go ahead!")
 while True:
   user_input = input("> ")
   # Update conversation history
